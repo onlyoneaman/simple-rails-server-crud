@@ -1,0 +1,21 @@
+default: &default
+  adapter:  postgresql
+  encoding: unicode
+  host:     <%= Figaro.env.db_host%>
+  user:     <%= Figaro.env.db_user%>
+  password: <%= Figaro.env.db_password%>
+  pool:     <%= Figaro.env.pool%>
+  timeout:  10000
+  sslmode: disable
+
+test:
+  <<: *default
+  database: test_server_idm
+
+development:
+  <<: *default
+  database: <%= Figaro.env.database%>
+
+production:
+  <<: *default
+  database: <%= Figaro.env.database%>

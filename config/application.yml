@@ -1,0 +1,8 @@
+DB_HOST: 'localhost'
+DB_USER: 'aman'
+DB_PASSWORD: 'password'
+POOL: '30'
+DATABASE: 'server_idm'
+APP_NAME: 'server_idm'
+SERVER_TIME_OUT: '180'
+SECRET_KEY_BASE: 'dawdiuawhuiohauwdoH&Aw8hawnkjnjkanwdn&E)H+MbQeThWmZq4t7w!z%C*F-JaNcRfUjXn2r5u8x/A?D(G+KbPeSgVkYp3s6v9y$B&E)H@McQfTjWmZq4t7w!z%C*F-JaNdRgUkXp2r5u8x/A?D(G+KbPeShVmYq3t6v9y$B&E)H@McQfTjWnZr4u7x!z%C*F-JaNdRgUkXp2s5v8y/B?D(G+KbPeShVmYq3t6w9z$C&F)H@McQfTjWnZr4'
